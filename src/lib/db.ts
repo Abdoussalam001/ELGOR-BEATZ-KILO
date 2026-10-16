@@ -2,12 +2,6 @@ import mysql from 'mysql2/promise';
 
 const connectionString = process.env.DATABASE_URL;
 
-if (!connectionString) {
-  throw new Error(
-    'DATABASE_URL environment variable is not set. Please check your .env.local file.'
-  );
-}
-
 let pool: mysql.Pool | null = null;
 
 function parseConnectionString(uri: string) {
@@ -25,16 +19,22 @@ function parseConnectionString(uri: string) {
       enableKeepAlive: true,
       keepAliveInitialDelayMs: 0,
     };
-  } catch (error) {
+  } catch {
     throw new Error('Invalid DATABASE_URL format. Expected: mysql://user:password@host:port/database');
   }
 }
 
 export function getPool(): mysql.Pool {
   if (!pool) {
-    // connectionString is checked above and will throw if undefined,
-    // use the non-null assertion here to satisfy TypeScript's type checker.
-    const config = parseConnectionString(connectionString!);
+    // Ensure DATABASE_URL exists at the point of use so TypeScript can narrow the type.
+    const conn = connectionString;
+    if (!conn) {
+      throw new Error(
+        'DATABASE_URL environment variable is not set. Please check your .env.local file.'
+      );
+    }
+
+    const config = parseConnectionString(conn);
     pool = mysql.createPool(config);
   }
 
