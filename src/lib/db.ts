@@ -32,7 +32,9 @@ function parseConnectionString(uri: string) {
 
 export function getPool(): mysql.Pool {
   if (!pool) {
-    const config = parseConnectionString(connectionString);
+    // connectionString is checked above and will throw if undefined,
+    // use the non-null assertion here to satisfy TypeScript's type checker.
+    const config = parseConnectionString(connectionString!);
     pool = mysql.createPool(config);
   }
 
