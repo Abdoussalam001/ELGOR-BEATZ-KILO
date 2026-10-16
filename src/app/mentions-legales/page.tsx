@@ -42,7 +42,7 @@ export default function MentionsLegalesPage() {
                 Le site <strong className="text-ink">elgorbeatz.com</strong> est édité par :
               </p>
               <div className="mt-6 pl-6 border-l border-stone-200 space-y-2 text-stone-500">
-                <p><strong className="text-ink">Elgor Beatz</strong></p>
+                <p><strong className="text-ink">Elgor Creativ Hub</strong></p>
                 <p>Compositeur et Directeur Artistique</p>
                 <p>Gabon</p>
                 <p>Email : contact@elgorbeatz.com</p>
@@ -67,12 +67,12 @@ export default function MentionsLegalesPage() {
               <h2 className="text-2xl font-light mb-6 text-ink tracking-tight">3. Propriété intellectuelle</h2>
               <p className="text-stone-600 mb-4">
                 L&apos;ensemble du contenu de ce site (textes, images, vidéos, logos, icônes, etc.) 
-                est la propriété exclusive d&apos;Elgor Beatz, sauf mention contraire.
+                est la propriété exclusive d&apos;Elgor Creativ Hub, sauf mention contraire.
               </p>
               <p className="text-stone-500">
                 Toute reproduction, représentation, modification, publication, adaptation de tout 
                 ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, 
-                est interdite sans autorisation écrite préalable d&apos;Elgor Beatz.
+                est interdite sans autorisation écrite préalable d&apos;Elgor Creativ Hub.
               </p>
             </section>
 
@@ -100,7 +100,7 @@ export default function MentionsLegalesPage() {
             <section>
               <h2 className="text-2xl font-light mb-6 text-ink tracking-tight">6. Limitation de responsabilité</h2>
               <p className="text-stone-600">
-                Elgor Beatz ne pourra être tenu responsable des dommages directs et indirects 
+                Elgor Creativ Hub ne pourra être tenu responsable des dommages directs et indirects 
                 causés au matériel de l&apos;utilisateur, lors de l&apos;accès au site, et résultant 
                 soit de l&apos;utilisation d&apos;un matériel ne répondant pas aux spécifications, 
                 soit de l&apos;apparition d&apos;un bug ou d&apos;une incompatibilité.

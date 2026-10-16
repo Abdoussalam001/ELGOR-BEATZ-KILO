@@ -1,6 +1,6 @@
-# 🎵 Elgor Beatz - Site Web Professionnel
+# 🎵 Elgor Creativ Hub - Site Web Professionnel
 
-Un site web moderne et élégant pour Elgor Beatz, producteur musical et ingénieur du son gabonais.
+Un site web moderne et élégant pour Elgor Creativ Hub, producteur musical et ingénieur du son gabonais.
 
 ## ✨ Fonctionnalités
 
@@ -88,7 +88,7 @@ Un site web moderne et élégant pour Elgor Beatz, producteur musical et ingéni
 ```bash
 # Cloner le projet
 git clone [url-du-repo]
-cd elgorbeatz
+cd elgor-creativ-hub
 
 # Installer les dépendances
 npm install
@@ -200,8 +200,7 @@ elgorbeatz/
 
 ## 📄 Licence
 
-Ce projet est développé pour Elgor Beatz. Tous droits réservés.
+Ce projet est développé pour Elgor Creativ Hub. Tous droits réservés.
 
 ---
-
-**Développé avec ❤️ pour Elgor Beatz** 🎵
+**Développé avec ❤️ pour Elgor Creativ Hub** 🎵

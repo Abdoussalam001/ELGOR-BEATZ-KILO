@@ -50,7 +50,7 @@ export default function Loader() {
             </div>
           </div>
           <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-            Elgor Beatz
+            Elgor Creativ Hub
           </h1>
         </div>
 

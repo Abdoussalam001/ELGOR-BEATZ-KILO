@@ -1,11 +1,11 @@
--- Base de données pour Elgor Beatz
+-- Base de données pour Elgor Creativ Hub
 -- Création des tables principales
 
 -- Table des beats
 CREATE TABLE IF NOT EXISTS beats (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
-    artist VARCHAR(255) NOT NULL DEFAULT 'Elgor Beatz',
+    artist VARCHAR(255) NOT NULL DEFAULT 'Elgor Creativ Hub',
     genre VARCHAR(100) NOT NULL,
     bpm VARCHAR(10) NOT NULL,
     key_signature VARCHAR(20) NOT NULL,
@@ -85,7 +85,7 @@ CREATE TABLE IF NOT EXISTS blog_posts (
     category ENUM('sortie', 'session', 'making-of', 'tip', 'evenement') NOT NULL,
     image_url VARCHAR(500),
     video_url VARCHAR(500),
-    author VARCHAR(255) NOT NULL DEFAULT 'Elgor Beatz',
+    author VARCHAR(255) NOT NULL DEFAULT 'Elgor Creativ Hub',
     views INT DEFAULT 0,
     published BOOLEAN DEFAULT FALSE,
     published_at TIMESTAMP NULL,

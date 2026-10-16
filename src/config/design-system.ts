@@ -1,5 +1,5 @@
 /**
- * Design System — Elgor Beatz (palette crème / encre, ton studio luxe)
+ * Design System — Elgor Creativ Hub (palette crème / encre, ton studio luxe)
  */
 
 export const colors = {

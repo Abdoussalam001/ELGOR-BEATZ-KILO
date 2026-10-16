@@ -68,7 +68,7 @@ export default function Header({ scrollY }: HeaderProps) {
             <span className="relative flex h-11 w-11 sm:h-12 sm:w-12 shrink-0 items-center justify-center rounded-xl border border-stone-900/[0.09] bg-cream-paper/90 shadow-inner shadow-white/40 ring-1 ring-foil/[0.12] transition-[border-color,box-shadow] duration-300 group-hover:border-foil/35 group-hover:shadow-lux">
               <Image
                 src="/branding/eb-monogram-black.png"
-                alt="Elgor Beatz — monogramme EB"
+                alt="Elgor Creativ Hub — monogramme"
                 width={42}
                 height={42}
                 className="h-7 w-auto sm:h-8 object-contain"
@@ -81,7 +81,7 @@ export default function Header({ scrollY }: HeaderProps) {
             <span className="relative flex flex-col gap-2 min-w-0">
               <Image
                 src="/branding/wordmark-line-black.png"
-                alt="Elgor Beatz"
+                alt="Elgor Creativ Hub"
                 width={220}
                 height={40}
                 className="h-5 sm:h-[1.375rem] w-auto max-w-[180px] sm:max-w-[220px] object-left object-contain opacity-95 transition-opacity group-hover:opacity-100"

@@ -65,7 +65,7 @@ export default function HomePage() {
                 <h2 className="font-display text-5xl sm:text-6xl lg:text-7xl font-normal tracking-tight leading-[1.05] text-ink">
                   L&apos;univers
                   <br />
-                  <span className="italic text-accent-copper">Elgor Beatz</span>
+                  <span className="italic text-accent-copper">Elgor Creativ Hub</span>
                 </h2>
                 <p className="text-xl text-stone-600 leading-relaxed font-light max-w-xl">
                   Studio au Gabon : une pratique ancrée dans la culture locale et ouverte au monde. Tradition des
@@ -84,28 +84,28 @@ export default function HomePage() {
                     <div className="grid grid-cols-2 gap-1 h-full min-h-[280px]">
                       <Image
                         src="/Highlights/IMG_2050.JPEG"
-                        alt="Elgor Beatz Studio"
+                        alt="Elgor Creativ Hub Studio"
                         width={600}
                         height={400}
                         className="w-full h-full object-cover opacity-92 hover:opacity-100 transition-opacity duration-700"
                       />
                       <Image
                         src="/Highlights/IMG_2161.JPEG"
-                        alt="Elgor Beatz Production"
+                        alt="Elgor Creativ Hub Production"
                         width={600}
                         height={400}
                         className="w-full h-full object-cover opacity-92 hover:opacity-100 transition-opacity duration-700"
                       />
                       <Image
                         src="/Highlights/IMG_2163.JPEG"
-                        alt="Elgor Beatz Session"
+                        alt="Elgor Creativ Hub Session"
                         width={600}
                         height={400}
                         className="w-full h-full object-cover opacity-92 hover:opacity-100 transition-opacity duration-700"
                       />
                       <Image
                         src="/Highlights/IMG_2167.JPEG"
-                        alt="Elgor Beatz Live"
+                        alt="Elgor Creativ Hub Live"
                         width={600}
                         height={400}
                         className="w-full h-full object-cover opacity-92 hover:opacity-100 transition-opacity duration-700"

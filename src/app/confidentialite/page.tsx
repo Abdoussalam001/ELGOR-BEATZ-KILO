@@ -38,7 +38,7 @@ export default function ConfidentialitePage() {
             <section>
               <h2 className="text-2xl font-light mb-6 text-ink tracking-tight">1. Introduction</h2>
               <p className="text-stone-600">
-                Elgor Beatz s&apos;engage à protéger la confidentialité de vos données personnelles. 
+                Elgor Creativ Hub s&apos;engage à protéger la confidentialité de vos données personnelles. 
                 Cette politique explique comment nous collectons, utilisons et protégeons vos informations.
               </p>
             </section>

@@ -71,7 +71,7 @@ export default function AboutPage() {
             <div className="relative aspect-[4/5] bg-cream-paper border border-stone-900/12 overflow-hidden shadow-[0_28px_80px_-32px_rgba(28,25,23,0.15)]">
               <Image 
                 src="/Highlights/IMG_2050.JPEG" 
-                alt="Elgor Beatz" 
+                alt="Elgor Creativ Hub" 
                 fill
                 className="object-cover opacity-95"
               />
@@ -96,7 +96,7 @@ export default function AboutPage() {
                 vie à votre vision musicale.
               </p>
               <p className={utils.textTertiary}>
-                Elgor Beatz n&apos;est pas qu&apos;un label, c&apos;est un partenaire artistique dédié à l&apos;excellence. 
+                Elgor Creativ Hub n&apos;est pas qu&apos;un label, c&apos;est un partenaire artistique dédié à l&apos;excellence. 
                 Chaque projet est une collaboration unique où votre identité artistique rencontre mon expertise 
                 technique et créative.
               </p>
@@ -158,7 +158,7 @@ export default function AboutPage() {
               <div className="rounded-2xl border border-stone-900/10 bg-cream-paper px-6 py-4 shadow-inner shadow-stone-900/5">
                 <Image
                   src="/branding/wordmark-stack-black.png"
-                  alt="Elgor Beatz"
+                  alt="Elgor Creativ Hub"
                   width={280}
                   height={120}
                   className="h-16 sm:h-[4.75rem] w-auto object-contain"
@@ -180,7 +180,7 @@ export default function AboutPage() {
             <div className={`${utils.card} ${utils.cardPadding} flex justify-center items-center bg-cream-paper`}>
               <Image
                 src="/branding/ref-typography-elgor-beatz.png"
-                alt="Référence typo — Elgor Beatz"
+                alt="Référence typo — Elgor Creativ Hub"
                 width={360}
                 height={120}
                 className="h-auto w-full max-h-28 object-contain opacity-95"

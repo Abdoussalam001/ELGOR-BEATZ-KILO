@@ -28,17 +28,17 @@ export const metadata: Metadata = {
       ? process.env.NEXT_PUBLIC_SITE_URL
       : "http://localhost:3000"
   ),
-  title: "Elgor Beatz - Créateur de sons, architecte d'émotions",
+  title: "Elgor Creativ Hub - Créateur de sons, architecte d'émotions",
   description:
     "Studio au Gabon — production, mix & mastering entre tradition et modernité. Compositeur et directeur artistique.",
   keywords:
-    "Elgor Beatz, production musicale, Gabon, tradition, modernité, masques, compositeur, directeur artistique, beats, mixage, mastering",
+    "Elgor Creativ Hub, production musicale, Gabon, tradition, modernité, masques, compositeur, directeur artistique, beats, mixage, mastering",
   icons: {
     icon: [{ url: "/icon.png", type: "image/png" }],
     apple: [{ url: "/icon.png", sizes: "180x180" }],
   },
   openGraph: {
-    title: "Elgor Beatz — Studio & production musicale",
+    title: "Elgor Creativ Hub — Studio & production musicale",
     description:
       "Studio au Gabon — son contemporain et ancrage culturel. Production, mix et mastering.",
     images: [
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
         url: "/branding/wordmark-stack-black.png",
         width: 1200,
         height: 630,
-        alt: "Elgor Beatz",
+        alt: "Elgor Creativ Hub",
       },
     ],
   },

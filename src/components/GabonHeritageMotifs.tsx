@@ -95,7 +95,7 @@ export function TraditionModerniteRibbon() {
             <span className="text-foil">modernité</span>
           </h2>
           <p className="mt-4 text-base font-light leading-relaxed text-stone-600 sm:text-lg">
-            Les formes des masques gabonais racontent mémoire, rituel et identité. Elgor Beatz dialogue avec ce
+            Les formes des masques gabonais racontent mémoire, rituel et identité. Elgor Creativ Hub dialogue avec ce
             patrimoine en le traduisant dans un son contemporain — productions actuelles, esthétique internationale,
             ancrage gabonais.
           </p>

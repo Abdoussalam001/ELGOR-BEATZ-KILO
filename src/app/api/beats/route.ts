@@ -46,7 +46,7 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const {
       name,
-      artist = 'Elgor Beatz',
+      artist = 'Elgor Creativ Hub',
       genre,
       bpm,
       key_signature,

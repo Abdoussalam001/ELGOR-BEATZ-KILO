@@ -43,7 +43,7 @@ export default function Footer() {
           {/* Marque */}
           <div className="space-y-6 sm:space-y-8">
             <div className="flex flex-wrap items-start gap-6">
-              <Link href="/" className="inline-flex flex-col gap-6 group rounded-sm outline-none focus-visible:ring-2 focus-visible:ring-accent-copper focus-visible:ring-offset-2 focus-visible:ring-offset-ink" aria-label="Elgor Beatz — Retour à l&apos;accueil">
+              <Link href="/" className="inline-flex flex-col gap-6 group rounded-sm outline-none focus-visible:ring-2 focus-visible:ring-accent-copper focus-visible:ring-offset-2 focus-visible:ring-offset-ink" aria-label="Elgor Creativ Hub — Retour à l&apos;accueil">
                 <div className="flex h-24 w-24 sm:h-[5.75rem] sm:w-[5.75rem] shrink-0 items-center justify-center rounded-2xl border border-cream/18 bg-cream shadow-[inset_0_1px_0_rgba(255,253,249,0.7)] ring-1 ring-foil/15 transition-[border-color,box-shadow] duration-300 group-hover:border-foil/40">
                   <Image
                     src="/branding/eb-monogram-black.png"
@@ -56,7 +56,7 @@ export default function Footer() {
                 </div>
                 <Image
                   src="/branding/wordmark-stack-white.png"
-                  alt="Elgor Beatz"
+                  alt="Elgor Creativ Hub"
                   width={280}
                   height={140}
                   className="h-24 sm:h-28 md:h-[7.25rem] w-auto max-w-[min(100%,17rem)] object-contain object-left opacity-98 transition-opacity group-hover:opacity-100"
@@ -194,7 +194,7 @@ export default function Footer() {
         <div className="pt-8 sm:pt-12 border-t border-cream/15">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
             <div className="text-cream/68 text-sm text-center sm:text-left font-light">
-              © {new Date().getFullYear()} Elgor Beatz. Tous droits réservés.
+              © {new Date().getFullYear()} Elgor Creativ Hub. Tous droits réservés.
             </div>
             
             {/* Enhanced Policy links with better spacing */}

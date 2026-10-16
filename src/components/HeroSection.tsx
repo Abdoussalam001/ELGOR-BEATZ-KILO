@@ -122,7 +122,7 @@ export default function HeroSection() {
           <div className="mb-8 flex animate-fade-in-up hero-enter-delay-2 justify-center lg:justify-start">
             <Image
               src="/branding/wordmark-line-black.png"
-              alt="Elgor Beatz"
+              alt="Elgor Creativ Hub"
               width={260}
               height={48}
               className="h-6 sm:h-[1.7rem] w-auto max-w-[min(240px,75vw)] object-contain lg:origin-left opacity-94"
@@ -173,7 +173,7 @@ export default function HeroSection() {
                   src={imageConfig.src}
                   alt={
                     imageConfig.src.includes('/branding/')
-                      ? 'Logo Elgor Beatz'
+                      ? 'Logo Elgor Creativ Hub'
                       : `Session studio Elgor ${index + 1}`
                   }
                   fill

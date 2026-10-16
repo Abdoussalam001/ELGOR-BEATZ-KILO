@@ -56,7 +56,7 @@ export default function BurgerMenu() {
 
   const navigationLinks = [
     { href: '/', label: 'Accueil', description: "Retour à l'accueil" },
-    { href: '/about', label: 'À propos', description: 'Découvrez Elgor Beatz' },
+    { href: '/about', label: 'À propos', description: 'Découvrez Elgor Creativ Hub' },
     { href: '/contact', label: 'Contact', description: 'Contactez-nous' },
   ];
 
@@ -97,7 +97,7 @@ export default function BurgerMenu() {
             </div>
             <Image
               src="/branding/wordmark-line-black.png"
-              alt="Elgor Beatz"
+              alt="Elgor Creativ Hub"
               width={210}
               height={40}
               className="h-5 w-auto max-w-[150px] shrink object-contain object-left sm:h-[1.3rem] sm:max-w-none"

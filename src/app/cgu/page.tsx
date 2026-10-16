@@ -39,7 +39,7 @@ export default function CGUPage() {
               <h2 className="text-2xl font-light mb-6 text-ink tracking-tight">1. Objet</h2>
               <p className="text-stone-600">
                 Les présentes Conditions Générales d&apos;Utilisation (CGU) régissent l&apos;utilisation 
-                du site web elgorbeatz.com édité par Elgor Beatz.
+                du site web elgorbeatz.com édité par Elgor Creativ Hub.
               </p>
             </section>
 
@@ -75,7 +75,7 @@ export default function CGUPage() {
               <h2 className="text-2xl font-light mb-6 text-ink tracking-tight">5. Propriété intellectuelle</h2>
               <p className="text-stone-600 mb-4">
                 Tous les contenus du site (textes, images, vidéos, musiques, logos) sont 
-                protégés par le droit d&apos;auteur et appartiennent à Elgor Beatz ou à ses partenaires.
+                protégés par le droit d&apos;auteur et appartiennent à Elgor Creativ Hub ou à ses partenaires.
               </p>
               <p className="text-stone-500">
                 Toute reproduction, même partielle, est interdite sans autorisation préalable.
@@ -85,7 +85,7 @@ export default function CGUPage() {
             <section>
               <h2 className="text-2xl font-light mb-6 text-ink tracking-tight">6. Responsabilité</h2>
               <p className="text-stone-600">
-                Elgor Beatz s&apos;efforce d&apos;assurer l&apos;exactitude des informations diffusées, 
+                Elgor Creativ Hub s&apos;efforce d&apos;assurer l&apos;exactitude des informations diffusées, 
                 mais ne peut garantir l&apos;exhaustivité, la précision ou l&apos;actualité des informations.
               </p>
             </section>
@@ -93,7 +93,7 @@ export default function CGUPage() {
             <section>
               <h2 className="text-2xl font-light mb-6 text-ink tracking-tight">7. Modification des CGU</h2>
               <p className="text-stone-600">
-                Elgor Beatz se réserve le droit de modifier les présentes CGU à tout moment. 
+                Elgor Creativ Hub se réserve le droit de modifier les présentes CGU à tout moment. 
                 Les utilisateurs sont invités à les consulter régulièrement.
               </p>
             </section>
